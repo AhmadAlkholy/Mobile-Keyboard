@@ -1,0 +1,91 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     
+    <title>Mobile Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="keyboard.css">
+
+    <!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+<body>
+
+<textarea id="screen" style="" placeholder="Type your text here"></textarea>
+
+<div id="keyboard">
+	<ul>
+		<div class="keyline1">
+			<li><span class="on">q</span> <span class="off">1</span> </li>
+			<li><span class="on">w</span> <span class="off">2</span> </li>
+			<li><span class="on">e</span> <span class="off">3</span> </li>
+			<li><span class="on">r</span> <span class="off">+</span> </li>
+			<li><span class="on">t</span> <span class="off">-</span> </li>
+			<li><span class="on">y</span> <span class="off">@</span> </li>
+			<li><span class="on">u</span> <span class="off">$</span> </li>
+			<li><span class="on">i</span> <span class="off">(</span> </li>
+			<li><span class="on">o</span> <span class="off">)</span> </li>
+			<li><span class="on">p</span> <span class="off">\</span> </li>
+		</div>
+		
+
+		<div class="keyline2">
+			<li><span class="on">a</span> <span class="off">4</span> </li>
+			<li><span class="on">s</span> <span class="off">5</span> </li>
+			<li><span class="on">d</span> <span class="off">6</span> </li>
+			<li><span class="on">f</span> <span class="off">*</span> </li>
+			<li><span class="on">g</span> <span class="off">/</span> </li>
+			<li><span class="on">h</span> <span class="off">'</span> </li>
+			<li><span class="on">j</span> <span class="off">"</span> </li>
+			<li><span class="on">k</span> <span class="off">:</span> </li>
+			<li><span class="on">l</span> <span class="off">;</span> </li>		
+			<li class="num-key"><span class="off">#</span></li>			
+		</div>
+
+
+		<li id="uppercase" style="margin-right:3.7vw;" class="key-2">
+			<span class="on"><img src="uppercase.png"></span> 
+			<span class="off"><img src="uppercase2.png"></span>
+		</li>
+
+		<div class="keyline3">
+			<li><span class="on">z</span> <span class="off">7</span> </li>
+			<li><span class="on">x</span> <span class="off">8</span> </li>
+			<li><span class="on">c</span> <span class="off">9</span> </li>
+			<li><span class="on">v</span> <span class="off">,</span> </li>
+			<li><span class="on">b</span> <span class="off">=</span> </li>
+			<li><span class="on">n</span> <span class="off">!</span> </li>
+			<li><span class="on">m</span> <span class="off">?</span> </li>	
+			<li class="num-key"><span class="off">^</span></li>		
+		</div>
+
+		<li id="delete" style="margin-left:3.7vw;" class="key-2">
+			<span><img src="Namnlös.png"></span>
+		</li>
+
+		<li class="key-2 change-keys">
+			<span class="on">123</span> <span class="off">abc</span>
+		</li>
+
+		<li class="key-2">
+			<span class="on"><i class="far fa-smile"></i></span>
+			<span class="off">0</span>
+		</li>
+
+		<li>
+			<span class="on"><i class="fa fa-microphone"></i></span> 
+			<span class="off">.</span> 
+		</li>
+		<li class="space"><span>space</span> </li>
+		<li id="return" class="key-2 return"><span>return</span></li>
+
+	</ul>	
+</div>
+	
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="keyboard.js"></script>
+</body>
+</html>
